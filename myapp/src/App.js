@@ -45,10 +45,10 @@ function App() {
           } />
 
 
-          {/* <Route
+          <Route
          path="/*"
-          element={
-          <ErrorPage/>} /> */}
+          element={<Login />}
+          /> 
       </Routes>
       </BrowserRouter>
     
