@@ -47,7 +47,7 @@ function App() {
 
           <Route
          path="/*"
-          element={<ErrorPage />}
+          element={<Login />}
           /> 
       </Routes>
       </BrowserRouter>
